@@ -1,0 +1,75 @@
+body {
+color: white;
+font-size: 20px;
+font-family: "arial", sans-serif, serif;
+text-align: center;
+
+background-color: black;
+background-image: url("../media/images/bg2.gif");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+
+
+.main {
+  display: inline-flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+
+  margin: auto;
+  padding: 50px;
+}
+
+#signinindex {
+  color: white;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+
+  background-color: rgba(0, 251, 255, 0.5);
+
+  width: 250px;
+
+  margin: 10px;
+  padding: 20px;
+
+  border: 5px solid white;
+  border-radius: 6px;
+}
+
+
+#signupindex {
+  color: white;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+
+  background-color: rgba(0, 100, 40, 0.5);
+
+  width: 250px;
+
+  margin: 10px;
+  padding: 20px;
+
+  border: 5px solid white;
+  border-radius: 6px;
+}
+
+
+#signinindex:hover {
+  color: grey;
+
+  background-color: rgba(0, 251, 255, 1);
+
+  border: 5px solid grey;
+}
+
+#signupindex:hover {
+  color: grey;
+
+  background-color: rgba(0, 100, 40, 1);
+
+  border: 5px solid grey;
+}

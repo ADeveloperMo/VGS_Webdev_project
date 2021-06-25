@@ -1,0 +1,143 @@
+body {
+  color: white;
+  font-size: 20px;
+  font-family: "arial", sans-serif, serif;
+  text-align: center;
+
+  background-color: grey;
+}
+
+.button {
+  text-decoration: none;
+  text-align: center;
+
+  background-color: black;
+
+  padding: 10px;
+  margin: 10px;
+
+  color: white;
+
+  cursor: pointer;
+
+  border: 5px solid white;
+  border-radius: 5px
+}
+
+#info {
+  text-decoration: none;
+  text-align: center;
+
+  background-color: white;
+
+  padding: 10px;
+  margin: 10px auto;
+
+  width: 50%;
+
+  color: black;
+
+  border: 5px solid black;
+  border-radius: 5px
+}
+
+
+.content {
+  margin: auto;
+
+  width: 95%;
+
+  background-color: grey;
+
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+
+.spiller {
+  margin: 5px;
+
+  border: 5px solid white;
+  border-radius: 5px;
+
+  background-color: black;
+}
+
+
+.playerBackgroundWrapper {
+  margin: 5px;
+
+  background-color: Black;
+
+  color: white;
+
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+
+.bot {
+  margin: 5px;
+
+  color: black;
+
+  background-color: white;
+
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.botBackgroundWrapper {
+  margin: 5px;
+
+  background-color: white;
+
+
+  border: 5px solid Black;
+  border-radius: 5px;
+}
+
+
+
+
+.points {
+  margin: auto;
+  padding: 5px;
+
+  border: 5px solid white;
+  border-radius: 5px;
+
+  width: 5%;
+  height: 5%;
+}
+
+.botPoints {
+  margin: auto;
+  padding: 5px;
+
+  border: 5px solid black;
+  border-radius: 5px;
+
+  width: 5%;
+  height: 5%;
+}
+
+img {
+  border: 5px solid white;
+  border-radius: 5px;
+
+  margin: 5px;
+}
+
+#stein, #saks, #papir {
+  cursor: pointer;
+}
+
+#botPic {
+  border: 5px solid Black;
+  border-radius: 5px;
+
+  color: black;
+
+  margin: 5px;
+}

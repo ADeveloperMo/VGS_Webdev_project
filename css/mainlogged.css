@@ -1,0 +1,342 @@
+body {
+color: white;
+font-size: 20px;
+font-family: "arial", sans-serif, serif;
+text-align: center;
+
+background-color: black;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+.page-header {
+  order: 1;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  border: 5px solid white;
+  border-radius: 5px;
+
+  padding: 5px;
+
+  width: 100%;
+  height: auto;
+
+}
+
+.header-title {
+  order: 1;
+
+  width: 100%;
+  height: auto;
+
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.header-settings {
+  order: 2;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+
+  width: auto;
+  height: auto;
+
+  margin: 5px auto;
+}
+.passchange {
+  order: 2;
+
+  border: 5px solid white;
+  border-radius: 5px;
+
+  padding: 10px;
+  margin: 10px;
+}
+
+.logout {
+  order: 3;
+
+  padding: 10px;
+  margin: 10px;
+
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+#ton {
+  z-index: 20;
+  order: 4;
+
+  display: block;
+
+  transition: all ease 500ms;
+  opacity: 1.0;
+
+  position: absolute;
+  left: 10px;
+  top: 220px;
+
+  background-color: black;
+
+  height: 60px;
+
+  border: 5px solid white;
+  border-radius: 5px;
+
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+  padding: 10px;
+  margin: 10px;
+
+  font-size: inherit;
+}
+
+#toff {
+  z-index: 20;
+  order: 5;
+
+  display: none;
+
+  transition: all ease 500ms;
+
+  opacity: 0.0;
+
+  position: absolute;
+  left: 1310px;
+  top: 220px;
+
+  background-color: white;
+
+  height: 60px;
+
+  border: 5px solid black;
+  border-radius: 5px;
+
+  color: black;
+  text-align: center;
+  text-decoration: none;
+
+  padding: 10px;
+  margin: 10px;
+
+  font-size: inherit;
+}
+
+
+#page-menu-onclick-cover {
+  z-index: 15;
+
+  transition: all ease 100ms;
+
+  position: fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+
+  background-color: black;
+
+  opacity: 0.0;
+
+  display: none;
+}
+
+#sidecontent {
+  z-index: 20;
+
+  order: 3;
+  display: none;
+
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  transition: all ease 500ms;
+  opacity: 0.0;
+
+  background-color: black;
+
+  position: absolute;
+  left: 1000px;
+  top: 230px;
+
+  width: 20%;
+  height: auto;
+
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.border-educational-support {
+  border: 5px solid white;
+  border-radius: 5px;
+
+  width: 90%;
+
+  margin: 5px;
+  padding: 5px;
+}
+
+.page-educational-support {
+  list-style-type: none;
+  margin: 5px;
+  padding: 10px;
+  overflow: hidden;
+
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+
+.page-educational-support>li {
+  margin: 3px;
+  padding: 10px;
+  overflow: hidden;
+
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+/* .applications {
+
+} */
+
+
+
+.border-educational-projects {
+  border: 5px solid white;
+  border-radius: 5px;
+
+  width: 90%;
+
+  padding: 5px;
+  margin: 5px;
+}
+
+.page-educational-projects {
+  list-style-type: none;
+  margin: 5px;
+  padding: 10px;
+  overflow: hidden;
+
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.page-educational-projects>li {
+  margin: 3px;
+  padding: 10px;
+  overflow: hidden;
+
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.page-educational-projects>li>a {
+  padding: 50px;
+}
+
+.page-content {
+  order: 4;
+
+  position: relative;
+  right: -200px;
+  top: 10px;
+  padding: 10px;
+  overflow: hidden;
+
+  width: 83%;
+
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.page-footer {
+  order: 4;
+
+  position: relative;
+  right: -200px;
+  top: 20px;
+  padding: 10px;
+  overflow: hidden;
+
+  width: 83%;
+
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+#discordWVC {
+  border: 5px solid white;
+  border-radius: 5px;
+
+  margin: 5px;
+}
+
+
+.twitch {
+  order: 5;
+  display: flex;
+
+  margin-top: 30px;
+  margin-left: 15%;
+
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+#twitch-embed {
+  order: 1;
+
+  margin: 5px;
+
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+#chat_embed {
+  order: 2;
+
+  margin: 5px;
+
+  border: 5px solid white;
+  border-radius: 5px;
+}
