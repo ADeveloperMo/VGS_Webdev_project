@@ -10,6 +10,6 @@ Fra min testing så kan siden fungere helt fint på en browser. Men PHP koden de
 For å lese kildekoden så er trenger du bare en tekst editor, Notepad++ eller Atom foreksempel.
 
 Programmer brukt: WAMP server (Apache 2.4.9, MySQL 5.6.17, PHP 5.5.12), MySQL Workbench og Atom.
-Språk brukt: HTML, CSS , PHP, JavaScript, SQL.
+språk brukt: HTML, CSS , PHP, JavaScript og SQL.
 
 Laget av Mohamed Kwaik
