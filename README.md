@@ -5,7 +5,7 @@ Det den skal egentlig gjøre er å gi muligheten for brukeren å lagre eller hen
 
 Denne versjonen er modifisert til å tillatte adgang med engang brukeren trykker "Log In" og siden ignorerer spørsler om databasen. Alt "online" funksjoner er ikke tilgjengelig og siden trenger ikke spesiell server å kjøre på.
 
-Fra min testing så kan siden fungere helt fint på en browser. Men PHP koden der for de som er interesserte. Dette er veldig grunnleggende men det viser det jeg generelt kan om webutvikling.
+Fra min testing så kan siden fungere helt fint på en browser. Men PHP koden der for de som er interesserte. Dette er veldig grunnleggende men det viser det jeg generelt kan om webutvikling. For å bruke siden kan brukeren trykke direkte på "index.php" hvis brukeren har en browser some php fil åpner eller kan brukeren høyre klikke på "index.php" også trykke på "Åpne med" eller "Open With" også velge browser. (Chrome, edge, etc)
 
 For å lese kildekoden så er trenger du bare en tekst editor, Notepad++ eller Atom foreksempel.
 
