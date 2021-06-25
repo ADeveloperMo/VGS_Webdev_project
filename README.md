@@ -7,3 +7,5 @@ Fra min testing så kan siden fungere helt fint på en browser. Men PHP koden de
 Siden selvsagt mangler en del funksjoner som den skulle ha, men, grunnet skole og utdanning, måtte jeg desverre avslutt prosjektet.
 
 For å lese kildekoden så er trenger du bare en tekst editor, Notepad++ eller Atom foreksempel.
+
+- Mohamed Kwaik
